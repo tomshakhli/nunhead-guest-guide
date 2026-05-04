@@ -1,0 +1,44 @@
+# All translatable UI strings live here.
+# Body content (descriptions, place listings) lives in the page files themselves.
+
+en:
+  header:
+    brand_prefix: "Guest guide for your stay at"
+  nav:
+    welcome: "Welcome"
+    essentials: "Essentials"
+    house_guide: "House guide"
+    local_favourites: "Local favourites"
+    explore: "Explore Nunhead"
+    departure: "Before you leave"
+  footer:
+    tagline: "Shared for guests, and intentionally kept free of access and security-sensitive information."
+    back_to_top: "Back to top"
+
+fr:
+  header:
+    brand_prefix: "Guide pour votre séjour au"
+  nav:
+    welcome: "Bienvenue"
+    essentials: "Essentiels"
+    house_guide: "Guide de la maison"
+    local_favourites: "Favoris locaux"
+    explore: "Explorer Nunhead"
+    departure: "Avant le départ"
+  footer:
+    tagline: "Partagé pour les invités, et volontairement sans informations sensibles d'accès."
+    back_to_top: "Retour en haut"
+
+es:
+  header:
+    brand_prefix: "Guía para tu estancia en"
+  nav:
+    welcome: "Bienvenida"
+    essentials: "Esenciales"
+    house_guide: "Guía de la casa"
+    local_favourites: "Favoritos locales"
+    explore: "Explorar Nunhead"
+    departure: "Antes de salir"
+  footer:
+    tagline: "Compartido para los invitados, y mantenido intencionalmente sin información sensible de acceso."
+    back_to_top: "Volver arriba"

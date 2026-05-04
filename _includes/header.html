@@ -1,0 +1,25 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% assign base = '' %}
+{% if page.lang == 'fr' %}{% assign base = '/fr' %}{% endif %}
+{% if page.lang == 'es' %}{% assign base = '/es' %}{% endif %}
+
+<header class="site">
+  <div class="nav-wrap">
+    <div class="top-row">
+      <a href="{{ base }}/#welcome" class="brand">{{ t.header.brand_prefix }} <span>31 Nunhead Green</span></a>
+      <div class="lang">
+        <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' %}class="active"{% endif %}>English</a>
+        <a href="{{ '/fr/' | relative_url }}" {% if page.lang == 'fr' %}class="active"{% endif %}>Français</a>
+        <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' %}class="active"{% endif %}>Español</a>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="Sections">
+      <a href="#welcome">{{ t.nav.welcome }}</a>
+      <a href="#essentials">{{ t.nav.essentials }}</a>
+      <a href="#house-guide">{{ t.nav.house_guide }}</a>
+      <a href="#local-favourites">{{ t.nav.local_favourites }}</a>
+      <a href="#explore">{{ t.nav.explore }}</a>
+      <a href="#departure">{{ t.nav.departure }}</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,39 @@
+title: "31 Nunhead Green | London Guest Guide"
+description: "A mobile-friendly guest guide for 31 Nunhead Green, London, with house essentials, local recommendations, and useful links."
+url: ""
+baseurl: ""
+
+# Theme colour
+theme_color: "#f2eadf"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - node_modules
+
+# Collections / defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: "fr"
+    values:
+      layout: "default"
+      lang: "fr"
+  - scope:
+      path: "es"
+    values:
+      layout: "default"
+      lang: "es"

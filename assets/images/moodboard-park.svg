@@ -1,0 +1,146 @@
+<svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrated park scene with Victorian cemetery spire">
+  <defs>
+    <linearGradient id="moodSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2eadf"/>
+      <stop offset="100%" stop-color="#e8dfd1"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#d98b6f" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#d98b6f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="350" fill="url(#moodSky)"/>
+
+  <!-- Late afternoon sun glow -->
+  <circle cx="600" cy="80" r="120" fill="url(#sunGlow)"/>
+  <circle cx="600" cy="80" r="32" fill="#d98b6f" opacity="0.65"/>
+
+  <!-- Long horizontal cloud streaks -->
+  <ellipse cx="200" cy="60" rx="80" ry="5" fill="#fbf6ee" opacity="0.7"/>
+  <ellipse cx="280" cy="70" rx="50" ry="4" fill="#fbf6ee" opacity="0.6"/>
+  <ellipse cx="420" cy="55" rx="60" ry="5" fill="#fbf6ee" opacity="0.7"/>
+
+  <!-- Distant Victorian cemetery chapel ruin -->
+  <g opacity="0.7">
+    <!-- Main body -->
+    <rect x="660" y="155" width="50" height="85" fill="#5a524a"/>
+    <!-- Spire -->
+    <polygon points="660,155 685,110 710,155" fill="#5a524a"/>
+    <polygon points="678,110 685,90 692,110" fill="#5a524a"/>
+    <!-- Gothic windows -->
+    <path d="M 670 200 L 670 185 Q 670 178 675 178 Q 680 178 680 185 L 680 200 Z" fill="#2b2622"/>
+    <path d="M 690 200 L 690 185 Q 690 178 695 178 Q 700 178 700 185 L 700 200 Z" fill="#2b2622"/>
+    <!-- Arched door -->
+    <path d="M 678 240 L 678 220 Q 678 213 685 213 Q 692 213 692 220 L 692 240 Z" fill="#2b2622"/>
+  </g>
+
+  <!-- Distant tree line -->
+  <g opacity="0.55">
+    <ellipse cx="100" cy="225" rx="55" ry="32" fill="#4a6b4f"/>
+    <ellipse cx="170" cy="230" rx="45" ry="28" fill="#5a7a5f"/>
+    <ellipse cx="240" cy="225" rx="50" ry="30" fill="#4a6b4f"/>
+    <ellipse cx="500" cy="230" rx="55" ry="30" fill="#5a7a5f"/>
+    <ellipse cx="580" cy="235" rx="40" ry="25" fill="#4a6b4f"/>
+  </g>
+
+  <!-- Mid-ground large tree (left) -->
+  <g>
+    <rect x="120" y="180" width="12" height="90" fill="#4a3528"/>
+    <!-- Branches -->
+    <line x1="126" y1="200" x2="100" y2="180" stroke="#4a3528" stroke-width="3" stroke-linecap="round"/>
+    <line x1="126" y1="195" x2="148" y2="175" stroke="#4a3528" stroke-width="3" stroke-linecap="round"/>
+    <!-- Foliage layers -->
+    <circle cx="126" cy="170" r="48" fill="#4a6b4f"/>
+    <circle cx="100" cy="180" r="32" fill="#5a7a5f"/>
+    <circle cx="155" cy="175" r="35" fill="#5a7a5f"/>
+    <circle cx="135" cy="155" r="28" fill="#6a8a6f"/>
+  </g>
+
+  <!-- Mid-ground large tree (right) -->
+  <g>
+    <rect x="450" y="190" width="14" height="80" fill="#4a3528"/>
+    <line x1="457" y1="210" x2="430" y2="190" stroke="#4a3528" stroke-width="3" stroke-linecap="round"/>
+    <line x1="457" y1="205" x2="485" y2="185" stroke="#4a3528" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="457" cy="180" r="52" fill="#4a6b4f"/>
+    <circle cx="428" cy="190" r="34" fill="#5a7a5f"/>
+    <circle cx="490" cy="185" r="38" fill="#5a7a5f"/>
+    <circle cx="465" cy="160" r="30" fill="#6a8a6f"/>
+  </g>
+
+  <!-- Bandstand / gazebo silhouette in mid-distance -->
+  <g transform="translate(310, 200)" opacity="0.85">
+    <!-- Roof -->
+    <polygon points="0,15 30,0 60,15" fill="#5a524a"/>
+    <!-- Pillars -->
+    <line x1="6" y1="15" x2="6" y2="50" stroke="#5a524a" stroke-width="2"/>
+    <line x1="22" y1="15" x2="22" y2="50" stroke="#5a524a" stroke-width="2"/>
+    <line x1="38" y1="15" x2="38" y2="50" stroke="#5a524a" stroke-width="2"/>
+    <line x1="54" y1="15" x2="54" y2="50" stroke="#5a524a" stroke-width="2"/>
+    <!-- Base -->
+    <rect x="0" y="50" width="60" height="5" fill="#5a524a"/>
+    <!-- Finial -->
+    <circle cx="30" cy="-3" r="3" fill="#5a524a"/>
+  </g>
+
+  <!-- GROUND: park grass -->
+  <path d="M 0 270 Q 200 260 400 270 Q 600 280 800 268 L 800 350 L 0 350 Z" fill="#4a6b4f"/>
+  <path d="M 0 285 Q 200 278 400 285 Q 600 292 800 283 L 800 350 L 0 350 Z" fill="#5a7a5f"/>
+
+  <!-- Park bench -->
+  <g transform="translate(560, 270)">
+    <rect x="0" y="0" width="55" height="5" fill="#5a3a2a"/>
+    <rect x="0" y="-12" width="55" height="3" fill="#5a3a2a"/>
+    <rect x="0" y="-9" width="55" height="3" fill="#5a3a2a"/>
+    <line x1="3" y1="5" x2="3" y2="20" stroke="#5a3a2a" stroke-width="2.5"/>
+    <line x1="52" y1="5" x2="52" y2="20" stroke="#5a3a2a" stroke-width="2.5"/>
+    <line x1="3" y1="-12" x2="3" y2="5" stroke="#5a3a2a" stroke-width="2"/>
+    <line x1="52" y1="-12" x2="52" y2="5" stroke="#5a3a2a" stroke-width="2"/>
+  </g>
+
+  <!-- Person walking dog -->
+  <g transform="translate(240, 260)">
+    <!-- Person -->
+    <circle cx="0" cy="0" r="6" fill="#2b2622"/>
+    <rect x="-5" y="6" width="10" height="22" fill="#b8553a" rx="1"/>
+    <line x1="-2" y1="28" x2="-4" y2="45" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="2" y1="28" x2="4" y2="45" stroke="#2b2622" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Lead -->
+    <line x1="5" y1="20" x2="22" y2="38" stroke="#2b2622" stroke-width="1" stroke-linecap="round"/>
+    <!-- Dog -->
+    <ellipse cx="28" cy="42" rx="10" ry="5" fill="#4a4038"/>
+    <circle cx="36" cy="38" r="4" fill="#4a4038"/>
+    <line x1="38" y1="36" x2="40" y2="33" stroke="#4a4038" stroke-width="1.5"/>
+    <line x1="40" y1="36" x2="42" y2="33" stroke="#4a4038" stroke-width="1.5"/>
+    <line x1="22" y1="44" x2="20" y2="48" stroke="#4a4038" stroke-width="1.5"/>
+    <line x1="32" y1="44" x2="34" y2="48" stroke="#4a4038" stroke-width="1.5"/>
+    <line x1="18" y1="42" x2="14" y2="40" stroke="#4a4038" stroke-width="1.5"/>
+  </g>
+
+  <!-- Cyclist on path -->
+  <g transform="translate(390, 280)">
+    <!-- Wheels -->
+    <circle cx="0" cy="15" r="8" fill="none" stroke="#2b2622" stroke-width="1.5"/>
+    <circle cx="22" cy="15" r="8" fill="none" stroke="#2b2622" stroke-width="1.5"/>
+    <!-- Frame -->
+    <line x1="0" y1="15" x2="11" y2="2" stroke="#2b2622" stroke-width="1.5"/>
+    <line x1="11" y1="2" x2="22" y2="15" stroke="#2b2622" stroke-width="1.5"/>
+    <line x1="11" y1="2" x2="14" y2="-3" stroke="#2b2622" stroke-width="1.5"/>
+    <!-- Rider -->
+    <circle cx="11" cy="-9" r="4" fill="#2b2622"/>
+    <path d="M 11 -5 L 11 3 L 16 -2 Z" fill="#4a6b4f"/>
+  </g>
+
+  <!-- Wildflowers in foreground -->
+  <g>
+    <circle cx="50" cy="305" r="2" fill="#d98b6f"/>
+    <circle cx="55" cy="308" r="2" fill="#d98b6f"/>
+    <circle cx="180" cy="320" r="2" fill="#fbf6ee"/>
+    <circle cx="185" cy="318" r="2" fill="#fbf6ee"/>
+    <circle cx="680" cy="310" r="2" fill="#d98b6f"/>
+    <circle cx="685" cy="313" r="2" fill="#d98b6f"/>
+    <circle cx="720" cy="325" r="2" fill="#fbf6ee"/>
+    <circle cx="725" cy="322" r="2" fill="#fbf6ee"/>
+  </g>
+</svg>
