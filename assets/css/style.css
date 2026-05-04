@@ -17,7 +17,7 @@
 html { scroll-behavior: smooth; scroll-padding-top: 84px; }
 body {
   margin: 0;
-  font-family: 'Inter', -apple-system, sans-serif;
+  font-family: 'Source Sans 3', -apple-system, sans-serif;
   background: var(--cream);
   color: var(--ink);
   line-height: 1.6;
@@ -26,7 +26,7 @@ body {
 }
 
 h1, h2, h3, .display {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 1.15;
@@ -57,7 +57,7 @@ header.site {
   gap: 1rem; flex-wrap: wrap;
 }
 .brand {
-  font-family: 'Fraunces', serif;
+  font-family: 'Lora', serif;
   font-size: 1rem; font-weight: 600; letter-spacing: -0.01em;
   border: none;
   color: var(--ink);
@@ -184,7 +184,7 @@ ul.clean li:last-child { border-bottom: none; }
 .place:last-child { border-bottom: none; }
 .place h4 {
   margin: 0 0 .25rem;
-  font-family: 'Fraunces', serif;
+  font-family: 'Lora', serif;
   font-weight: 600;
   font-size: 1.05rem;
 }
@@ -223,7 +223,7 @@ ul.clean li:last-child { border-bottom: none; }
   color: var(--ink-soft);
   margin-bottom: .25rem;
 }
-.meta-card .value { font-family: 'Fraunces', serif; font-size: 1.05rem; }
+.meta-card .value { font-family: 'Lora', serif; font-size: 1.05rem; }
 
 /* Illustrations */
 .illus {
@@ -247,7 +247,7 @@ details {
 details summary {
   padding: 1rem 1.25rem;
   cursor: pointer;
-  font-family: 'Fraunces', serif;
+  font-family: 'Lora', serif;
   font-weight: 600;
   font-size: 1.1rem;
   list-style: none;
@@ -277,7 +277,7 @@ footer {
 footer .inner { max-width: 760px; margin: 0 auto; }
 footer p { font-size: .9rem; color: var(--cream-deep); }
 footer .footer-address {
-  font-family: 'Fraunces', serif;
+  font-family: 'Lora', serif;
   font-size: 1.1rem;
   color: var(--cream);
   margin-bottom: .5rem;
@@ -294,7 +294,7 @@ footer a { color: var(--accent-soft); border-bottom-color: rgba(217,139,111,.4);
   margin: 1rem 0;
 }
 .group-label {
-  font-family: 'Fraunces', serif;
+  font-family: 'Lora', serif;
   font-style: italic;
   font-size: 1.1rem;
   color: var(--ink-soft);
